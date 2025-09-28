@@ -1,0 +1,95 @@
+2025-09-14T09:54:04.566Z - info: Website generation started at 17:54:04
+2025-09-14T09:54:04.647Z - info: Building assets...
+2025-09-14T09:54:04.699Z - info: Assets built
+2025-09-14T09:54:04.702Z - info: Generating pages...
+2025-09-14T09:54:11.181Z - debug:  
+2025-09-14T09:54:11.341Z - debug:  
+2025-09-14T09:54:11.454Z - debug:  
+2025-09-14T09:54:11.563Z - debug:  
+2025-09-14T09:54:11.604Z - debug:  
+2025-09-14T09:54:11.669Z - debug:  
+2025-09-14T09:54:11.714Z - debug:  
+2025-09-14T09:54:11.790Z - debug:  
+2025-09-14T09:54:11.860Z - debug:  
+2025-09-14T09:54:11.860Z - debug:  
+2025-09-14T09:54:11.861Z - debug:  
+2025-09-14T09:54:11.863Z - debug:  
+2025-09-14T09:54:11.872Z - debug:  
+2025-09-14T09:54:11.882Z - debug:  
+2025-09-14T09:54:11.899Z - debug:  
+2025-09-14T09:54:11.940Z - debug:  
+2025-09-14T09:54:11.986Z - debug:  
+2025-09-14T09:54:12.036Z - debug:  
+2025-09-14T09:54:12.101Z - debug:  
+2025-09-14T09:54:12.458Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.459Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#features' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.459Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#faq' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.459Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#acknowledgements' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.459Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#setting-up-getting-started' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.460Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#design' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.460Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#implementation' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.460Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.460Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#appendix-requirements' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.460Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#appendix-instructions-for-manual-testing' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T09:54:12.461Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\index.md'
+2025-09-14T09:54:12.461Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#architecture' found in file 'D:\tp\docs\SettingUp.md'
+2025-09-14T09:54:12.463Z - info: Pages built
+2025-09-14T09:54:12.703Z - info: Site data built
+2025-09-14T09:54:12.704Z - info: Website generation complete! Total build time: 8.165s
+2025-09-14T09:54:12.767Z - info: Serving "D:\tp\docs\_site" at http://127.0.0.1:8080
+2025-09-14T09:54:12.768Z - info: Press CTRL+C to stop ...
+2025-09-14T09:56:19.925Z - info: [17:56:19] Reload for file change: D:\tp\docs\index.md
+2025-09-14T09:56:20.929Z - info: Rebuilding 1 pages
+2025-09-14T09:56:20.991Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\index.md'
+2025-09-14T09:56:20.997Z - info: Site data built
+2025-09-14T09:56:20.997Z - info: Pages rebuilt
+2025-09-14T09:56:20.998Z - info: Website regeneration complete! Total build time: 0.07s
+2025-09-14T09:58:07.928Z - info: [17:58:07] Reload for file change: D:\tp\docs\index.md
+2025-09-14T09:58:08.931Z - info: Rebuilding 1 pages
+2025-09-14T09:58:09.004Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\index.md'
+2025-09-14T09:58:09.009Z - info: Site data built
+2025-09-14T09:58:09.009Z - info: Pages rebuilt
+2025-09-14T09:58:09.010Z - info: Website regeneration complete! Total build time: 0.079s
+2025-09-14T10:00:00.492Z - info: [18:00:00] Reload for file change: D:\tp\docs\_markbind\layouts\default.md
+2025-09-14T10:00:01.513Z - info: Rebuilding 11 pages
+2025-09-14T10:00:02.101Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.101Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#features' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.101Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#faq' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.102Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#acknowledgements' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.102Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#setting-up-getting-started' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.102Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#design' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.103Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#implementation' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.103Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#documentation-logging-testing-configuration-dev-ops' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.103Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#appendix-requirements' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.103Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#appendix-instructions-for-manual-testing' found in file 'D:\tp\docs\_markbind\layouts\default.md'
+2025-09-14T10:00:02.104Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /UserGuide.html#quick-start' found in file 'D:\tp\docs\index.md'
+2025-09-14T10:00:02.106Z - warn: You might have an invalid hash for intra-link! Ignore this warning if it was intended.'
+  /DeveloperGuide.html#architecture' found in file 'D:\tp\docs\SettingUp.md'
+2025-09-14T10:00:02.115Z - info: Site data built
+2025-09-14T10:00:02.115Z - info: Pages rebuilt
+2025-09-14T10:00:02.116Z - info: Website regeneration complete! Total build time: 0.604s
