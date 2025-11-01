@@ -41,6 +41,12 @@ class SetSalaryCommandParserTest {
     }
 
     @Test
+    void parse_infiniteSalary_failure() {
+        assertParseFailure(parser, "E12345 1e309", Messages.MESSAGE_SALARY_TOO_HIGH);
+        assertParseFailure(parser, "E12345 Infinity", Messages.MESSAGE_SALARY_TOO_HIGH);
+    }
+
+    @Test
     void parse_nonNumericSalary_failure() {
         assertParseFailure(parser, "E12345 a", Messages.MESSAGE_INVALID_SALARY);
         assertParseFailure(parser, "E12345 +-0", Messages.MESSAGE_INVALID_SALARY);
