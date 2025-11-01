@@ -39,6 +39,10 @@ public class SetSalaryCommandParser implements Parser<SetSalaryCommand> {
                 throw new ParseException(Messages.MESSAGE_INVALID_SALARY);
             }
 
+            if (value == -0) {
+                value = 0;
+            }
+
             return new SetSalaryCommand(id, value);
         } catch (NumberFormatException e) {
             throw new ParseException(Messages.MESSAGE_INVALID_SALARY);
