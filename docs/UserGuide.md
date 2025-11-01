@@ -288,11 +288,12 @@ Format: `set-salary EMPLOYEE_ID SALARY`
 
 * Sets the salary of the person with the specified `EMPLOYEE_ID` to the specified `SALARY`.
 * The employee ID starts with "E" and is displayed next to the name in the displayed person list.
-* The salary must be a positive number representing the **monthly salary in dollars**.
+* The salary must be a non-negative number representing the **monthly salary in dollars**.
+* Take note that nagative zero is considered a valid input and it will be treated as zero.
 * The salary may contain decimal places, but it will be rounded to two decimal places.
 
 Examples:
-* `set-salary E1001 1000` sets the salary of the person with the ID of "E1001" to *$1000 / month*.
+* `set-salary E1001 1000` sets the salary of the person with the ID of "E1001" to *$1000.00 / month*.
 * `set-salary E2050 3550.61` sets the salary of the person with the ID of "E2050" to *$3550.61 / month*.
 * `set-salary E1001 4000.247` sets the salary of the person with the ID of "E1001" to *$4000.25 / month*.
 
