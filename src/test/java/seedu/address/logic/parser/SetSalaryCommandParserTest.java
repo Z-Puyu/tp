@@ -22,12 +22,28 @@ class SetSalaryCommandParserTest {
     }
 
     @Test
+    void parse_negativeZero_parsedToNormalZero() {
+        assertParseSuccess(parser, "E12345 -0", new SetSalaryCommand("E12345", 0));
+        assertParseSuccess(parser, "E12345 -0.0", new SetSalaryCommand("E12345", 0));
+        assertParseSuccess(parser, "E12345 -0.00", new SetSalaryCommand("E12345", 0));
+        assertParseSuccess(parser, "E12345 -0.000", new SetSalaryCommand("E12345", 0));
+    }
+
+    @Test
     void parse_invalidFormat_failure() {
         assertParseFailure(parser, "E12345",
                            String.format(MESSAGE_INVALID_COMMAND_FORMAT, SetSalaryCommand.MESSAGE_USAGE));
 
         assertParseFailure(parser, "E12345,100",
                            String.format(MESSAGE_INVALID_COMMAND_FORMAT, SetSalaryCommand.MESSAGE_USAGE));
+        assertParseFailure(parser, "E12345 100 200",
+                           String.format(MESSAGE_INVALID_COMMAND_FORMAT, SetSalaryCommand.MESSAGE_USAGE));
+    }
+
+    @Test
+    void parse_nonNumericSalary_failure() {
+        assertParseFailure(parser, "E12345 a", Messages.MESSAGE_INVALID_SALARY);
+        assertParseFailure(parser, "E12345 +-0", Messages.MESSAGE_INVALID_SALARY);
     }
 
     @Test

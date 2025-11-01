@@ -19,7 +19,7 @@ public class SetSalaryCommandParser implements Parser<SetSalaryCommand> {
      */
     public SetSalaryCommand parse(String args) throws ParseException {
         String[] tokens = args.trim().split("\\s+");
-        if (tokens.length < 2) {
+        if (tokens.length != 2) {
             throw new ParseException(
                     String.format(MESSAGE_INVALID_COMMAND_FORMAT, SetSalaryCommand.MESSAGE_USAGE));
         }

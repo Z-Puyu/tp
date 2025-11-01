@@ -44,7 +44,7 @@ public record Salary(double value) implements Comparable<Salary> {
 
     @Override
     public String toString() {
-        DecimalFormat format = new DecimalFormat("#,##0.00");
+        DecimalFormat format = new DecimalFormat("#,###.##");
         return String.format("$%s / month", format.format(value()));
     }
 }
