@@ -311,10 +311,11 @@ Format: `sort -FIELD [-MORE_FIELDS]`
   * `salary` - sorts by salary in numerical order
   * `gh` - sorts by GitHub username in alphabetical order
   * `id` - sorts by employee ID in numerical order
+* The fields are case-insensitive.
 * The fields can be specified multiple times, although this should not be necessary for any use case.
 * The fields can be specified in any order. The order of the fields determines their priority in comparing two persons.
-* The default sorting is by name in alphabetical order.
-* The persons are always sorted in ascending order.
+* The default sorting is by name in dictionary alphabetical order.
+* The persons are always sorted in ascending order. Note that capital letters are considered "smaller" than their lowercase counterparts.
 
 Examples:
 * `sort -name -salary` sorts the persons in the address book by name in alphabetical order, then by salary in numerical order.
